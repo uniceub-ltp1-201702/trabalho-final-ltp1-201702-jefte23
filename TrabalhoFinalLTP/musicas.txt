@@ -1,0 +1,35 @@
+Riviera Paradise;Blues;6-6-1989;Stevie Ray Vaughan
+Born Under a Bad Sign;Blues;1-8-1967;Albert King
+Oh, Pretty Woman;Blues;1-8-1967;Albert King
+Glamour Girl;Blues;1-1-1990;T-Bone Walker
+the thrill is gone;Blues;1-12-1969;B.B. king
+Blues Boys Tune;Blues;20-10-1998;B.B. king
+Cocaine;Blues;14-9-2015;Eric Clapton
+Layla;Blues;18-8-1992;Eric Clapton
+Wonderful Tonight;Blues;1-11-2002;Eric Clapton
+You Gotta Move;Folk;25-3-2016;Parker Millsap
+Forgive Me;Folk;4-2-2014;Parker Millsap
+The Villain;Folk;4-2-2014;Parker Millsap
+Cocaine;Blues;1-11-1977;Bob Dylan
+You Gotta Move;Rock Classico;1-1-1969;The Rolling Stones
+You Gotta Move;Country blues;1-1-1964;Mississippi Fred McDowell
+Backbite;Blues;1-1-2014;Dan Patlansky
+Our Love;Rock;1-1-2016;Gary Clark Jr.
+Voodoo Child;Rock;16-10-1968;Jimi Hendrix
+Foxy Lady;Rock;1-1-1970;Jimi Hendrix
+Electric Ladyland;Rock;16-10-1968;Jimi Hendrix
+Voodoo Child;Rock;28-4-2015;Dan Patlansky
+Bring it;Blues;1-1-2016;Fernando Noronha & Black Soul
+Sentimental;Rock;1-1-2001;Los Hermanos
+Todo carnaval tem seu fim;Rock;1-1-2001;Los Hermanos
+Cara estranho;Rock;1-1-2003;Los Hermanos
+Sweet Child O' Mine;Rock;1-1-1987;Guns N' Roses
+In a Silent Way;Jazz;30-7-1969;Miles Davis
+Milestones;Jazz;2-9-1958;Miles Davis
+Have You Met Miss Jones?;Jazz;1-11-1958;Louis Armstrong
+Home;Jazz;8-2-2005;Michael Bublé
+How Sweet It Is;Jazz;8-2-2005;Michael Bublé
+A Song For You;Jazz;8-2-2005;Michael Bublé
+Pride and Joy;Blues;13-6-1983;Stevie Ray Vaughan
+Texas Flood;Blues;13-6-1983;Stevie Ray Vaughan
+Lenny;Blues;13-6-1983;Stevie Ray Vaughan

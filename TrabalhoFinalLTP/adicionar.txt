@@ -1,0 +1,63 @@
+<<<  Backup e testes >>> 
+
+---------------------------------------------
+Stevie Ray Vaughan;Wisconsin, EUA;3-10-1954
+Albert King;Tennessee, EUA;25-4-1923
+B.B. king;Nevada, EUA;16-9-1925
+T-Bone Walker;Califórnia, EUA;28-5-1910
+Eric Clapton;Ripley, Reino Unido;30-3-1945
+Parker Millsap;Oklahoma, EUA;18-4-1992
+Bob Dylan;Minnesota, EUA;14-5-1941
+The Rolling Stones;Dartford, Reino Unido;1-1-1992
+Mississippi Fred McDowell;Tennessee, EUA;12-1-1906
+Dan Patlansky;Joanesburgo, África do Sul;12-12-1984
+Jimi Hendrix;Washington, EUA;21-11-1942
+Gary Clark Jr.;Austin, Texas, EUA;15-2-1984
+Fernando Noronha & Black Soul;Porto Alegre, Brasil;1-1-1995
+Los Hermanos;Rio de Janeiro, Brasil;1-1-1997
+Guns N' Roses;Califórnia, EUA;1-1-1985
+Miles Davis;Califórnia, EUA;26-5-1926
+Louis Armstrong;Luisiana, EUA;4-8-1901
+Michael Bublé;Burnaby, Canadá;9-9-1975
+
+-----------------------------------------------
+
+Texas Flood;Blues;13-6-1983;Stevie Ray Vaughan
+Lenny;Blues;13-6-1983;Stevie Ray Vaughan
+Riviera Paradise;Blues;6-6-1989;Stevie Ray Vaughan
+Born Under a Bad Sign;Blues;1-8-1967;Albert King
+Oh, Pretty Woman;Blues;1-8-1967;Albert King
+Glamour Girl;Blues;1-1-1990;T-Bone Walker
+the thrill is gone;Blues;1-12-1969;B.B. king
+Blues Boys Tune;Blues;20-10-1998;B.B. king
+Cocaine;Blues;14-9-2015;Eric Clapton
+Layla;Blues;18-8-1992;Eric Clapton
+Wonderful Tonight;Blues;1-11-2002;Eric Clapton
+You Gotta Move;Folk;25-3-2016;Parker Millsap
+Forgive Me;Folk;4-2-2014;Parker Millsap
+The Villain;Folk;4-2-2014;Parker Millsap
+Cocaine;Blues;1-11-1977;Bob Dylan
+You Gotta Move;Rock Classico;1-1-1969;The Rolling Stones
+You Gotta Move;Country blues;1-1-1964;Mississippi Fred McDowell
+Backbite;Blues;1-1-2014;Dan Patlansky
+Our Love;Rock;1-1-2016;Gary Clark Jr.
+Voodoo Child;Rock;16-10-1968;Jimi Hendrix
+Foxy Lady;Rock;1-1-1970;Jimi Hendrix
+Electric Ladyland;Rock;16-10-1968;Jimi Hendrix
+Voodoo Child;Rock;28-4-2015;Dan Patlansky
+Bring it;Blues;1-1-2016;Fernando Noronha & Black Soul
+Sentimental;Rock;1-1-2001;Los Hermanos
+Todo carnaval tem seu fim;Rock;1-1-2001;Los Hermanos
+Cara estranho;Rock;1-1-2003;Los Hermanos
+Sweet Child O' Mine;Rock;1-1-1987;Guns N' Roses
+In a Silent Way;Jazz;30-7-1969;Miles Davis
+Milestones;Jazz;2-9-1958;Miles Davis
+Have You Met Miss Jones?;Jazz;1-11-1958;Louis Armstrong
+Home;Jazz;8-2-2005;Michael Bublé
+How Sweet It Is;Jazz;8-2-2005;Michael Bublé
+A Song For You;Jazz;8-2-2005;Michael Bublé
+Pride and Joy;Blues;13-6-1983;Stevie Ray Vaughan
+
+
+(manipulação de String)http://www.tiexpert.net/programacao/java/string.php
+(github - Exportar final)https://github.com/uniceub-ltp1-201702/trabalho-final-ltp1-201702-jefte23.git
