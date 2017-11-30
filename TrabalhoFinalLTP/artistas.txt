@@ -14,5 +14,5 @@ Guns N' Roses;Califórnia, EUA;1-1-1985
 Miles Davis;Califórnia, EUA;26-5-1926
 Louis Armstrong;Luisiana, EUA;4-8-1901
 Michael Bublé;Burnaby, Canadá;9-9-1975
-Stevie Ray Vaughan;Wisconsin, EUA;3-10-1954
 Albert King;Tennessee, EUA;25-4-1923
+Stevie Ray Vaughan;Wisconsin, EUA;3-10-1954

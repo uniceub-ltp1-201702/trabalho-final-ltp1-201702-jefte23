@@ -133,6 +133,25 @@ public class BDSimulado {
 
 	}
 
+	public boolean testaMusica(String musica, String artista) {
+
+		boolean resultado = false;
+
+		// percorre ArrayList
+		for (int i = 0; i < musicas.size(); i++) {
+			// compara nome passado com os existentes na lista
+			if (musicas.get(i).getNome().equalsIgnoreCase(musica)
+					&& musicas.get(i).getArtistas().equalsIgnoreCase(artista)) {
+				// Se musica e nome de artista for igual aos passados pelo usuario
+				// retorna true
+				resultado = true;
+			}
+
+		}
+
+		return resultado;
+	}
+
 	// Metodo Get
 	public ArrayList<Musica> getMusicas() {
 		return musicas;

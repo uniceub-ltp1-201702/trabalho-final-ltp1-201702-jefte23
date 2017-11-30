@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import Model.Artista;
 import Model.BDSimulado;
 import View.ViewExcluirArtista;
+import View.ViewMensagemErro;
 import View.ViewSolicitaArtista;
 
 public class ControleExcluiArtista {
@@ -33,36 +34,41 @@ public class ControleExcluiArtista {
 		// recupera nome pasado pelo usuário
 		String nome = sn.getNome();
 
-		// percorre ArrayList
-		for (int i = 0; i < artista.size(); i++) {
-			// compara nome passado com os existentes na lista
-			if (artista.get(i).getNome().equals(nome)) {
-				// se encontrado remove os dados na possição
-				artista.remove(i);
-			}
-		}
-
 		String listaArtista = "";
-		// grava arquivo atualizado
-		for (int i = 0; i < artista.size(); i++) {
-
-			if (i == (artista.size() - 1)) {
-				// transforma o Array em String
-				listaArtista += artista.get(i).getNome() + ";" + artista.get(i).getNascionalidade() + ";"
-						+ artista.get(i).getDataComoString();
-
-			} else {
-				// transforma o Array em String
-				listaArtista += artista.get(i).getNome() + ";" + artista.get(i).getNascionalidade() + ";"
-						+ artista.get(i).getDataComoString() + "\n";
+		if (bds.testaNomeArtista(nome)) {
+			// percorre ArrayList
+			for (int i = 0; i < artista.size(); i++) {
+				// compara nome passado com os existentes na lista
+				if (artista.get(i).getNome().equals(nome)) {
+					// se encontrado remove os dados na possição
+					artista.remove(i);
+				}
 			}
+
+			// grava arquivo atualizado
+			for (int i = 0; i < artista.size(); i++) {
+
+				if (i == (artista.size() - 1)) {
+					// transforma o Array em String
+					listaArtista += artista.get(i).getNome() + ";" + artista.get(i).getNascionalidade() + ";"
+							+ artista.get(i).getDataComoString();
+
+				} else {
+					// transforma o Array em String
+					listaArtista += artista.get(i).getNome() + ";" + artista.get(i).getNascionalidade() + ";"
+							+ artista.get(i).getDataComoString() + "\n";
+				}
+			}
+
+			FileWriter fw = new FileWriter(FileName, false);
+			PrintWriter pw = new PrintWriter(fw);
+			pw.println(listaArtista);
+			pw.close();
+
+			ViewExcluirArtista ea = new ViewExcluirArtista();
+		} else {
+			ViewMensagemErro me = new ViewMensagemErro();
 		}
 
-		FileWriter fw = new FileWriter(FileName, false);
-		PrintWriter pw = new PrintWriter(fw);
-		pw.println(listaArtista);
-		pw.close();
-
-		ViewExcluirArtista ea = new ViewExcluirArtista();
 	}
 }

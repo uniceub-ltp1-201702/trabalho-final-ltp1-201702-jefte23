@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import Model.BDSimulado;
 import Model.Musica;
 import View.ViewExcluiMusica;
+import View.ViewMensagemErro;
 import View.ViewSolicitaArtista;
 import View.ViewSolicitaMusica;
 
@@ -37,34 +38,40 @@ public class ControleExcluiMusica {
 		String mus = snm.getNome();
 		String art = sna.getNome();
 
-		// percorre ArrayList
-		for (int i = 0; i < musicas.size(); i++) {
-			// compara nome passado com os existentes na lista
-			if (musicas.get(i).getNome().equals(mus) && musicas.get(i).getArtistas().equals(art)) {
-				// Se musica e nome de artista for igual aos passados pelo usuario
-				musicas.remove(i);
+		if (bds.testaMusica(mus, art)) {
+
+			// percorre ArrayList
+			for (int i = 0; i < musicas.size(); i++) {
+				// compara nome passado com os existentes na lista
+				if (musicas.get(i).getNome().equals(mus) && musicas.get(i).getArtistas().equals(art)) {
+					// Se musica e nome de artista for igual aos passados pelo usuario
+					musicas.remove(i);
+				}
 			}
+
+			// Percorre lista para montagem de String a ser gravada no arquivo
+			String listaMusicas = "";
+			for (int i = 0; i < musicas.size(); i++) {
+
+				if (i == (musicas.size() - 1)) {
+					listaMusicas += musicas.get(i).getNome() + ";" + musicas.get(i).getGenero() + ";"
+							+ musicas.get(i).getDataComoString() + ";" + musicas.get(i).getArtistas();
+				} else {
+					listaMusicas += musicas.get(i).getNome() + ";" + musicas.get(i).getGenero() + ";"
+							+ musicas.get(i).getDataComoString() + ";" + musicas.get(i).getArtistas() + "\n";
+
+				}
+			}
+
+			FileWriter fw = new FileWriter(FileName, false);
+			PrintWriter pw = new PrintWriter(fw);
+			pw.println(listaMusicas);
+			pw.close();
+
+			ViewExcluiMusica em = new ViewExcluiMusica();
+		} else {
+			ViewMensagemErro me = new ViewMensagemErro();
 		}
 
-		// Percorre lista para montagem de String a ser gravada no arquivo
-		String listaMusicas = "";
-		for (int i = 0; i < musicas.size(); i++) {
-
-			if (i == (musicas.size() - 1)) {
-				listaMusicas += musicas.get(i).getNome() + ";" + musicas.get(i).getGenero() + ";"
-						+ musicas.get(i).getDataComoString() + ";" + musicas.get(i).getArtistas();
-			} else {
-				listaMusicas += musicas.get(i).getNome() + ";" + musicas.get(i).getGenero() + ";"
-						+ musicas.get(i).getDataComoString() + ";" + musicas.get(i).getArtistas() + "\n";
-
-			}
-		}
-
-		FileWriter fw = new FileWriter(FileName, false);
-		PrintWriter pw = new PrintWriter(fw);
-		pw.println(listaMusicas);
-		pw.close();
-
-		ViewExcluiMusica em = new ViewExcluiMusica();
 	}
 }
